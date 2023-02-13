@@ -1,0 +1,189 @@
+.main-container{
+    background-image: url(https://bud.co.uk/app/uploads/2021/03/Bud-Apprenticeship-Management-Programme-Design-1-1920x568.jpg);
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    background-size: cover;
+    background-position: center;
+    max-width: unset !important;
+    height: 90vh; 
+    background-attachment: fixed;
+   
+}
+.mini-container{
+    background: #00000066;
+    width: 100%;
+    height: 100%;
+
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 30px;
+    top: 15px;
+    max-width: 800px;
+    
+}
+h1{
+    font-size: 70px     !important;
+    text-shadow: 2px 2px 0.5px black !important;
+}
+h2{
+    color: #304792!important;
+}
+h4{
+    text-shadow: 2px 2px 0.5px black !important;
+}
+span{
+    width: 100px !important;
+    height: 5px !important;
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    margin-left: 35px;
+    background-color: #304792 !important;
+    
+}
+.btn-white{
+    background-color: white;
+    border: none !important;
+    margin-top: 20px !important;
+    box-shadow: 3px 4px 4px rgb(0 0 0 / 23%);
+    border-radius: 0px !important;
+}
+.btn-white:hover{
+    background-color: #1c8820 !important;
+    color: white !important;
+    
+}
+.grid-container{
+    background: url(https://bud.co.uk/app/themes/bud/dist/images/desktop-diamonds.svg) bottom right no-repeat #f7f7f8;
+    background-size: auto;
+    max-width: 100%;
+    height: 100%;
+}
+.fixed-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.main-tiles{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.tiles{
+    background-color: white;
+    max-width: 400px;
+    height: 200px;
+    /* transition: all 1s ease-in; */
+    
+    
+}
+/* .tiles:hover{
+    transform: rotateY(180deg);
+} */
+.main-tiles:hover .tiles-front{
+    opacity: 0;
+    transform: rotateY(180deg);
+
+}
+.main-tiles:hover .tiles-back{
+    opacity: 1;
+    transform: rotateY(0deg);
+
+}
+
+.tiles-front{
+    transition: all 0.5s ease-in ;
+    margin: 10px;
+
+}
+.tile-back{
+    padding: 20px;
+}
+.tiles-back{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    opacity: 0;
+    transform: rotateY(180deg);
+    transition: all 0.5s ease-in ;
+    margin: 10px;
+    
+}
+.icon{
+    display: block;
+    width: 52px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 3px;
+}
+
+@media screen and (max-width:500px) {
+    .main-container{
+        background-image: url(https://cropiqtech.com/sites/default/files/corporate.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+
+    }
+    .item{
+        padding: 0px !important;
+        margin: 0px !important;
+        left: 0px;
+    }
+    .item h1{
+        font-size: 10px !important;
+        margin-bottom: 40px !important;
+    }
+    .item h4{
+        font-size: 20px !important;
+        margin-bottom: 40px !important;
+    }
+    .img-mobile img{
+        margin-top: 100px !important;
+        padding: 10px !important;
+        width: 300px !important;
+        float: unset !important;
+    }
+    span{
+        margin-left: 15px;
+    }
+    .fixed-container{
+        justify-content: center;
+    }
+    .tiles h3{
+        text-align: center !important;
+        padding: 0px !important;
+
+    }
+}
+@keyframes img-animation{
+    from{
+        bottom: -150px;
+        opacity: 0;
+    }
+    to{
+        bottom: 0px;
+        opacity: 100%;
+    }
+}
+
+img{
+    position: relative;
+    animation-name: img-animation;
+    animation-duration: 2s;
+}
+.item{
+    position: relative;
+    animation-name: img-animation;
+    animation-duration: 4s;
+}
