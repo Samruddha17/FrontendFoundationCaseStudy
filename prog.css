@@ -37,7 +37,7 @@ h2{
 h4{
     text-shadow: 2px 2px 0.5px black !important;
 }
-span{
+.span span{
     width: 100px !important;
     height: 5px !important;
     display: inline-block;
@@ -154,7 +154,7 @@ span{
         width: 300px !important;
         float: unset !important;
     }
-    span{
+    .span span{
         margin-left: 15px;
     }
     .fixed-container{
