@@ -134,7 +134,7 @@ body{
 .sec1AccessImg{
     flex: 0.5;
     width: 500px;
-    animation: scaleImg 1.5s ease-in-out 1 3s;
+    animation: scaleImg 1.5s ease-in-out 1;
 
 }
 
