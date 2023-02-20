@@ -1,0 +1,178 @@
+.container{
+    max-width: unset !important;
+    padding: 0;
+}
+
+*{margin: 0;padding: 0;font-family: 'Catamaran', sans-serif !important;}
+:root{--primaryColor: rgb(0, 0, 135); --secondaryColor: #1c8820;}
+
+body{overflow-x: hidden;}
+
+.event-page{
+    background-image: url(Case-studies-hero.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    margin-top: 60px;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    max-height: unset !important;
+    box-sizing: border-box;
+    z-index: 1;
+    min-height:450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@keyframes moveUpWithFade2 {
+    from {
+        bottom: -150px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0px;
+        opacity: 100%;
+    }
+}
+
+.event-title{
+    position: relative;
+    font-family: catamaran,sans-serif;
+    animation-name: moveUpWithFade2;
+    animation-duration: 4s;
+}
+
+.event-title > h1{
+    color: white;
+    margin-top: 2rem;
+    margin-left: 1.2em;
+    inline-size: 800px;
+    overflow-wrap: break-word;
+    text-shadow: 1px 3px 4px rgb(0 0 0 / 43%);
+}
+
+.event-title > h2{
+    color: white;
+    font-size: 40px;
+    margin-top: 2rem;
+    margin-left: 2.2em;
+    text-shadow: 1px 3px 4px rgb(0 0 0 / 43%);
+}
+
+.event-title > .event-btn-signup {
+    font-weight: bold;
+    font-family: catamaran,sans-serif;
+    font-size: 20px;
+    width: 20%;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+.case-study-grid{
+    max-width: unset !important;
+    padding:0;
+}
+.container1{
+    margin: 10px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-item{
+    margin: 20px;
+    padding: 5px;
+}
+
+.light-title{
+font-family: catamaran,sans-serif;
+font-weight: 300;
+font-size: 2rem !important;
+color: #4d4d4d;
+line-height: 2.25rem;
+margin: auto;
+text-align: center;
+margin-bottom: 21px!important;
+}
+
+.container-item > h3{
+    color: #4d4d4d;
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+    font-family: catamaran,sans-serif;
+    font-weight: 700;
+    margin-bottom: 21px!important;
+}
+
+.container-item > p{
+    color: #4d4d4d;
+    margin-bottom: 30px;
+    font-size: .875rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+}
+
+.container-item > img{
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+}
+
+.card_read-more{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1772a6;
+}
+
+
+.container-fluid{
+    text-align: center;
+    
+}
+
+.container-fluid > h1{
+    color: #4d4d4d !important;
+    inline-size: 600px;
+    overflow-wrap: break-word;
+}
+
+.container-fluid > button{    text-align: center;
+    box-shadow: 3px 4px 4px rgb(0 0 0 / 23%);
+    color: #fff;
+    font-family: nunito sans,sans-serif;
+    font-weight: 800;
+    padding: 8px 20px;
+    font-size: 1rem;
+    margin-top: 30px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.container-fluid > .software-demo {
+    background: linear-gradient(135deg,rgb(48,48,162) 0%,rgb(40,116,252) 100%);
+}
+
+.container-fluid > .speak-to-team{
+    background: linear-gradient(135deg,rgb(11,155,73) 2%,rgb(2,207,97) 100%);
+    border-radius: 5px;
+}
+
+.iphone-img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.get-in-touch{
+    text-align: left;
+    padding: 40px 0;
+    padding-bottom: 0;
+    margin: 0;
+}
